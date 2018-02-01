@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    .container
+        h1.text-center Login
+        p.text-center.text-danger #{message}
+
+        form#loginForm
+            input#email.text-input(type="email", name="email", placeholder="email")
+            br
+            input#password.text-input(type="password", name="password", placeholder="password")
+            br
+            input.btn(type="submit", value="Login")
+
+    script(src="/js/login.js")

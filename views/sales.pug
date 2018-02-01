@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    .header
+        h1=title
+
+    .container
+        for item in items
+            p #{item.item} | price: #{item.price}

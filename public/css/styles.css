@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI Light";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.container {
+    padding: 0 50px;
+}
+
+.bttn {
+    margin: 5px;
+    padding: .5em 1em;
+    font-size: large;
+    border: none;
+}
+
+.header {
+    padding: .8em 1em;
+    background: #333;
+    color: white;
+}
+
+.name {
+    padding: 1em 2em;
+}
+
+.desc {
+    display: none;
+}
+
+.name:hover .desc {
+    display: block;
+    padding: 1em 2em;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-input {
+    border: none;
+    background: transparent;
+    padding: .5em .8em;
+    font-size: large;
+    border-bottom: 1px solid purple;
+}
+
+.btn {
+    border: none;
+    padding: .5em 1em;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.text-danger {
+    color: red;
+}

@@ -1,0 +1,22 @@
+extends layout
+
+block content
+
+    .header
+        h1 Items
+
+    form#addItem
+        input#item.text-input(type="text", placeholder="item", name="item")
+        br
+        input#price.text-input(type="number", placeholder="price", name="price")
+        br
+        input#discount.text-input(type="number", placeholder="discount", name="discount")
+        br
+        input.btn(type="submit", value="Add Item")
+    
+    .container
+        for item in items
+            p Name: #{item.item} | Ksh :#{item.price} | discount: #{item.discount}%
+
+    
+    script(src="/js/admin.js")

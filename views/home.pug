@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    .header
+        h1=title
+
+        button.bttn#admin Admin
+        button.bttn#sales Sales
+
+    .container
+        for item in items
+            div.name #{item.item}
+                div.desc KES : #{item.price} and #{item.discount}% discount
+
+    script(src="/js/home.js")
+    

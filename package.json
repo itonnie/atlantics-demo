@@ -1,0 +1,19 @@
+{
+  "name": "atlantics-demo",
+  "version": "1.0.0",
+  "description": "Atlantics demo for interview",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Onejohi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^5.0.3",
+    "pug": "^2.0.0-rc.4"
+  }
+}
